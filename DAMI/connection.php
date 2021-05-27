@@ -32,10 +32,10 @@
 
 session_start();
 
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "dami";
+$servername = "remotemysql.com";//server name
+$username = "zlTTPwailO";//default username
+$password = "BUkhRiFNyW";//deafult password
+$dbname = "zlTTPwailO";//database name
 
 $conn = new mysqli($servername, $username, $password, $dbname);
 
